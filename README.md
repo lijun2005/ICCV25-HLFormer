@@ -39,7 +39,7 @@ All features of TVR, ActivityNet Captions and Charades-STA are kindly provided b
 
 **Please note that we did not use any features derived from ViT.**
 
-The data can be downloaded from [Baidu pan](https://pan.baidu.com/s/1UNu67hXCbA6ZRnFVPVyJOA?pwd=8bh4) or Google drive[https://drive.google.com/drive/folders/11dRUeXmsWU25VMVmeuHc9nffzmZhPJEj?usp=sharing]. 
+The data can be downloaded from [Baidu pan](https://pan.baidu.com/s/1UNu67hXCbA6ZRnFVPVyJOA?pwd=8bh4) or (Google drive)[https://drive.google.com/drive/folders/11dRUeXmsWU25VMVmeuHc9nffzmZhPJEj?usp=sharing]. 
 
 The dataset directory is organized as follows:
 
@@ -58,7 +58,7 @@ PRVR_data/
         ├── FeatureData/
         └── TextData/
 ```
-Finally, set root and data_root in config files (*e.g.*, ./Configs/tvr.py).
+Finally, set root and data_root in config files (*e.g.*, ./src/Configs/tvr.py).
 
 ## Run
 
