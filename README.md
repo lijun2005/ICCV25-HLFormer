@@ -15,26 +15,49 @@ Besides, we invite readers to refer to our previous work [GMMFormer](https://git
 
 In the following, we will guide you how to use this repository step by step. 🤗🐶
 
-## Getting Started
+## 2. Preparation
 
-1\. Clone this repository:
-```
-git clone https://github.com/huangmozhi9527/GMMFormer_v2.git
-cd GMMFormer_v2
-```
-
-2\. Create a conda environment and install the dependencies:
-```
-conda create -n prvr python=3.9
-conda activate prvr
-conda install pytorch==1.9.0 cudatoolkit=11.3 -c pytorch -c conda-forge
-pip install -r requirements.txt
+```bash
+git clone https://github.com/lijun2005/ICCV25-HLFormer.git
+cd ICCV25-HLFormer/
 ```
 
-3\. Download Datasets: All features of TVR, ActivityNet Captions and Charades-STA are kindly provided by the authors of [MS-SL].
 
+### 2.1 Requirements
 
-4\. Set root and data_root in config files (*e.g.*, ./Configs/tvr.py).
+- python==3.11.8
+- numpy==1.26.4
+- pytorch==2.0.1
+- torchvision==0.15.2
+- scipy==1.5.4
+- h5py==3.1.0
+- addict==2.4.0
+- pip install -r requirements.txt
+
+### 2.2 Download the  feature datasets and organize them properly
+All features of TVR, ActivityNet Captions and Charades-STA are kindly provided by the authors of [MS-SL].
+
+**Please note that we did not use any features derived from ViT.**
+
+The data can be downloaded from [Baidu pan](https://pan.baidu.com/s/1UNu67hXCbA6ZRnFVPVyJOA?pwd=8bh4) or Google drive[https://drive.google.com/drive/folders/11dRUeXmsWU25VMVmeuHc9nffzmZhPJEj?usp=sharing]. 
+
+The dataset directory is organized as follows:
+
+PRVR_data/
+└── PRVR/
+    ├── activitynet/
+    │   ├── FeatureData/
+    │   ├── TextData/
+    │   ├── val_1.json
+    │   └── val_2.json
+    ├── charades/
+    │   ├── FeatureData/
+    │   └── TextData/
+    └── tvr/
+        ├── FeatureData/
+        └── TextData/
+
+Finally, set root and data_root in config files (*e.g.*, ./Configs/tvr.py).
 
 ## Run
 
