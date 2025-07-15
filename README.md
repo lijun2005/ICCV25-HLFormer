@@ -58,7 +58,7 @@ PRVR_data/
         ├── FeatureData/
         └── TextData/
 ```
-Finally, set root and data_root in config files (*e.g.*, ./src/Configs/tvr.py).
+Finally, set root and data_root in config files (*e.g.*, ./src/Configs/tvr.py `cfg['root']` and `cfg['data_root']`).
 
 ## 3. Run
 ### 3.1 Train 
@@ -104,7 +104,7 @@ If you find our code useful or use the toolkit in your work, please consider cit
 }
 ```
 ## 5. Acknowledgements
-This code is based on our previous work [GMMFormer](https://github.com/huangmozhi9527/GMMFormer) and [GMMFormerV2](https://github.com/huangmozhi9527/GMMFormer_v2).. 
+This code is based on our previous work [GMMFormer](https://github.com/huangmozhi9527/GMMFormer) and [GMMFormerV2](https://github.com/huangmozhi9527/GMMFormer_v2).
 We are also grateful for other teams for open-sourcing codes that inspire our work, including 
 [ms-sl](https://github.com/HuiGuanLab/ms-sl),
 [dl-dkd](https://github.com/HuiGuanLab/DL-DKD), 
