@@ -35,7 +35,7 @@ cd ICCV25-HLFormer/
 - pip install -r requirements.txt
 
 ### 2.2 Download the  feature datasets and organize them properly
-All features of TVR, ActivityNet Captions and Charades-STA are kindly provided by the authors of [MS-SL].
+All features of TVR, ActivityNet Captions and Charades-STA are kindly provided by the authors of [ms-sl](https://github.com/HuiGuanLab/ms-sl).
 
 **!!! Please note that we did not use any features derived from ViT.**
 
@@ -96,7 +96,6 @@ For this repository, the expected performance is:
 If you find our code useful or use the toolkit in your work, please consider citing:
 ```
 @inproceedings{Li25_HLFormer,
-  author={Lian, Niu and Li, Jun and Wang, Jinpeng and Luo, Ruisheng and Wang, Yaowei and Xia, Shu-Tao and Chen, Bin},
   author = {Li, Jun and  Wang, Jinpeng and Tan, Chaolei and Lian,Niu and Chen,Long and Zhang,Min and  Wang, Yaowei and Xia, Shu-Tao and Chen, Bin},
   title={Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning},
   booktitle={Proceedings of the IEEE/CVF conference on computer vision},
