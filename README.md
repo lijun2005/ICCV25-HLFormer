@@ -43,6 +43,7 @@ The data can be downloaded from [Baidu pan](https://pan.baidu.com/s/1UNu67hXCbA6
 
 The dataset directory is organized as follows:
 
+```bash
 PRVR_data/
 └── PRVR/
     ├── activitynet/
@@ -56,7 +57,7 @@ PRVR_data/
     └── tvr/
         ├── FeatureData/
         └── TextData/
-
+```
 Finally, set root and data_root in config files (*e.g.*, ./Configs/tvr.py).
 
 ## Run
