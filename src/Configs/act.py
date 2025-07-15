@@ -68,7 +68,7 @@ cfg['n_heads'] = 4
 cfg['input_drop'] = 0.31
 cfg['drop'] = 0.31
 cfg['initializer_range'] = 0.02
-cfg['attention_num'] = 6
+cfg['attention_num'] = 8
 
 cfg['num_workers'] = 1 if cfg['no_core_driver'] else cfg['num_workers']
 cfg['pin_memory'] = not cfg['no_pin_memory']
