@@ -1,4 +1,16 @@
 # HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning
+- [HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning](#hlformer-enhancing-partially-relevant-video-retrieval-with-hyperbolic-learning)
+  - [1. Introduction](#1-introduction)
+  - [2. Preparation](#2-preparation)
+    - [2.1 Requirements](#21-requirements)
+    - [2.2 Download the  feature datasets and organize them properly](#22-download-the--feature-datasets-and-organize-them-properly)
+  - [3. Run](#3-run)
+    - [3.1 Train](#31-train)
+    - [3.2 Retrieval Performance](#32-retrieval-performance)
+  - [4. References](#4-references)
+  - [5. Acknowledgements](#5-acknowledgements)
+  - [6. Contact](#6-contact)
+
 ## 1. Introduction
 This repository contains the **PyTorch** implementation of our work at **ICCV 2025**:
 
