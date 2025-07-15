@@ -37,7 +37,7 @@ cd ICCV25-HLFormer/
 ### 2.2 Download the  feature datasets and organize them properly
 All features of TVR, ActivityNet Captions and Charades-STA are kindly provided by the authors of [MS-SL].
 
-**Please note that we did not use any features derived from ViT.**
+**!!! Please note that we did not use any features derived from ViT.**
 
 The data can be downloaded from [Baidu pan](https://pan.baidu.com/s/1UNu67hXCbA6ZRnFVPVyJOA?pwd=8bh4) or [Google drive](https://drive.google.com/drive/folders/11dRUeXmsWU25VMVmeuHc9nffzmZhPJEj?usp=sharing). 
 
@@ -60,52 +60,57 @@ PRVR_data/
 ```
 Finally, set root and data_root in config files (*e.g.*, ./src/Configs/tvr.py).
 
-## Run
-
-To train GMMFormer_v2 on TVR:
+## 3. Run
+### 3.1 Train 
+To train HLformer on TVR:
 ```
 cd src
 python main.py -d tvr --gpu 0
 ```
 
-To train GMMFormer_v2 on ActivityNet Captions:
+To train HLformer on ActivityNet Captions:
 ```
 cd src
 python main.py -d act --gpu 0
 ```
 
-To train GMMFormer_v2 on Charades-STA:
+To train HLformer on Charades-STA:
 ```
 cd src
 python main.py -d cha --gpu 0
 ```
 
-
-
-## Trained Models
-
-We provide trained GMMFormer_v2 checkpoints. You can download them from Baiduyun disk.
-
-| *Dataset* | *ckpt* |
-| ---- | ---- |
-| TVR | [Baidu disk](https://pan.baidu.com/s/1GbHBvnr5Y7Tz43HU4K2p2w?pwd=9527) |
-| ActivityNet Captions | [Baidu disk](https://pan.baidu.com/s/1nmgfyjg4SgeC9NM2kg02wg?pwd=9527) |
-| Charades-STA | [Baidu disk](https://pan.baidu.com/s/1-_SBrQ1Tla-Rut-fdtnqCw?pwd=9527) |
-
-## Results
-
-### Quantitative Results
+### 3.2 Retrieval Performance
 
 For this repository, the expected performance is:
 
-| *Dataset* | *R@1* | *R@5* | *R@10* | *R@100* | *SumR* |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| TVR | 16.2 | 37.6 | 48.8 | 86.4 | 189.1 |
-| ActivityNet Captions | 8.9 | 27.1 | 40.2 | 78.7 | 154.9 |
-| Charades-STA | 2.6 | 8.5 | 13.7 | 54.0 | 78.7 |
+| *Dataset* | *R@1* | *R@5* | *R@10* | *R@100* | *SumR* | *ckpt* |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| TVR | 16.2 | 37.6 | 48.8 | 86.4 | 189.1 |[Baidu disk](https://pan.baidu.com/s/1GbHBvnr5Y7Tz43HU4K2p2w?pwd=9527) |
+| ActivityNet Captions | 8.9 | 27.1 | 40.2 | 78.7 | 154.9 |[Baidu disk](https://pan.baidu.com/s/1GbHBvnr5Y7Tz43HU4K2p2w?pwd=9527) |
+| Charades-STA | 2.6 | 8.5 | 13.7 | 54.0 | 78.7 |[Baidu disk](https://pan.baidu.com/s/1GbHBvnr5Y7Tz43HU4K2p2w?pwd=9527) |
 
 
-[MS-SL]:https://github.com/HuiGuanLab/ms-sl
+
+## 4. References
+If you find our code useful or use the toolkit in your work, please consider citing:
+```
+@inproceedings{Li25_HLFormer,
+  author={Lian, Niu and Li, Jun and Wang, Jinpeng and Luo, Ruisheng and Wang, Yaowei and Xia, Shu-Tao and Chen, Bin},
+  author = {Li, Jun and  Wang, Jinpeng and Tan, Chaolei and Lian,Niu and Chen,Long and Zhang,Min and  Wang, Yaowei and Xia, Shu-Tao and Chen, Bin},
+  title={Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision},
+  year={2025}
+}
+```
+## 5. Acknowledgements
+This code is based on our previous work [GMMFormer](https://github.com/huangmozhi9527/GMMFormer) and [GMMFormerV2](https://github.com/huangmozhi9527/GMMFormer_v2).. 
+We are also grateful for other teams for open-sourcing codes that inspire our work, including 
+[ms-sl](https://github.com/HuiGuanLab/ms-sl),
+[dl-dkd](https://github.com/HuiGuanLab/DL-DKD), 
+[meru](https://github.com/facebookresearch/meru).
+## 6. Contact
+If you have any question, you can raise an issue or email Jun Li (220110924@stu.hit.edu.cn) and Jinpeng Wang (wjp20@mails.tsinghua.edu.cn).
 
 
 
