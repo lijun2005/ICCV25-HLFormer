@@ -22,7 +22,6 @@ git clone https://github.com/lijun2005/ICCV25-HLFormer.git
 cd ICCV25-HLFormer/
 ```
 
-
 ### 2.1 Requirements
 
 - python==3.11.8
@@ -62,19 +61,19 @@ Finally, set root and data_root in config files (*e.g.*, ./src/Configs/tvr.py `c
 
 ## 3. Run
 ### 3.1 Train 
-To train HLformer on TVR:
+To train HLFormer on TVR:
 ```
 cd src
 python main.py -d tvr --gpu 0
 ```
 
-To train HLformer on ActivityNet Captions:
+To train HLFormer on ActivityNet Captions:
 ```
 cd src
 python main.py -d act --gpu 0
 ```
 
-To train HLformer on Charades-STA:
+To train HLFormer on Charades-STA:
 ```
 cd src
 python main.py -d cha --gpu 0
@@ -84,11 +83,11 @@ python main.py -d cha --gpu 0
 
 For this repository, the expected performance is:
 
-| *Dataset* | *R@1* | *R@5* | *R@10* | *R@100* | *SumR* | *ckpt* |
+| *Dataset* | *R@1* | *R@5* | *R@10* | *R@100* | *SumR* | *ckpt and logs* |
 | ---- | ---- | ---- | ---- | ---- | ---- |---- |
-| TVR | 16.2 | 37.6 | 48.8 | 86.4 | 189.1 |[Baidu disk](https://pan.baidu.com/s/1GbHBvnr5Y7Tz43HU4K2p2w?pwd=9527) |
-| ActivityNet Captions | 8.9 | 27.1 | 40.2 | 78.7 | 154.9 |[Baidu disk](https://pan.baidu.com/s/1GbHBvnr5Y7Tz43HU4K2p2w?pwd=9527) |
-| Charades-STA | 2.6 | 8.5 | 13.7 | 54.0 | 78.7 |[Baidu disk](https://pan.baidu.com/s/1GbHBvnr5Y7Tz43HU4K2p2w?pwd=9527) |
+| TVR | 15.7 | 37.1 | 48.5 | 86.4 | 187.7 |[Google drive](https://drive.google.com/file/d/1NIl0x90qbdGxn9rwqVqS8MRpIdzKdPr1/view?usp=sharing) |
+| ActivityNet Captions | 8.7 | 27.1 | 40.1 | 79.0 | 154.9 |[Google drive](https://drive.google.com/file/d/1B3mxKkUxtfNEggiJSwExFCV0gEbuZSzf/view?usp=sharing) |
+| Charades-STA | 2.6 | 8.5 | 13.7 | 54.0 | 78.7 |[Google drive](https://drive.google.com/file/d/1rwM7c63hGFWFENfWDOdnu-Pitzy9NOZJ/view?usp=sharing) |
 
 
 
