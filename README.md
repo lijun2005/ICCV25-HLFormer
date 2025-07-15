@@ -4,6 +4,17 @@ This repository contains the **PyTorch** implementation of our work at **ICCV 20
 
 > [**Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning**](http://arxiv.org/abs/2504.03587).  Jun Li, Jinpeng Wang, Chaolei Tan, Niu Lian, Long Chen, Min Zhang, Yaowei Wang, Shu-Tao Xia, Bin Chen.
 
+![overview](figures/hlformer.png)
+
+We propose **HLFormer**， the *first* hyperbolic modeling framework for PRVR, which leverages hyperbolic space learning to compensate for the suboptimal hierarchical modeling capabilities of Euclidean space. HLFormer's designs are faithfully tailored for two core demands in PRVR, namely (**i**) temporal modeling to extract key moment features, and  (**ii**) learning robust cross-modal representations. 
+For (i), we inject the **intra-video hierarchy prior** into the temporal modeling by introducing multi-scale Lorentz attention. 
+It collaborates with the Euclidean attention and enhances activation of discriminative moment features relevant to queries. 
+For (ii), we introduce $L_{pop}$ to impose a fine-grained ``text$\prec$video'' semantic entailment constraint in hyperbolic space. This helps to model the **inter-video hierarchy prior** among videos and texts. 
+
+Besides, we invite readers to refer to our previous work [GMMFormer](https://github.com/huangmozhi9527/GMMFormer) and [GMMFormerV2](https://github.com/huangmozhi9527/GMMFormer_v2).
+
+In the following, we will guide you how to use this repository step by step. 🤗🐶
+
 ## Getting Started
 
 1\. Clone this repository:
