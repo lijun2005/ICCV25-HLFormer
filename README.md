@@ -1,4 +1,3 @@
-![overview](figures/logo.png)
 # HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning
 - [HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning](#hlformer-enhancing-partially-relevant-video-retrieval-with-hyperbolic-learning)
   - [1. Introduction](#1-introduction)
