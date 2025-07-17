@@ -12,7 +12,7 @@
   - [6. Contact](#6-contact)
 
 ## 1. Introduction
-This repository contains the **PyTorch** implementation of our work at **ICCV 2025**:
+This repository contains the **PyTorch** implementation of our work at **ICCV 2025**. Paper is coming soon:
 
 > [**Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning**](http://arxiv.org/abs/2504.03587).  Jun Li, Jinpeng Wang, Chaolei Tan, Niu Lian, Long Chen, Min Zhang, Yaowei Wang, Shu-Tao Xia, Bin Chen.
 
@@ -43,7 +43,7 @@ cd ICCV25-HLFormer/
 - scipy==1.5.4
 - h5py==3.1.0
 - addict==2.4.0
-- pip install -r requirements.txt
+- `pip install -r requirements.txt`
 
 ### 2.2 Download the  feature datasets and organize them properly
 All features of TVR, ActivityNet Captions and Charades-STA are kindly provided by the authors of [ms-sl](https://github.com/HuiGuanLab/ms-sl).
