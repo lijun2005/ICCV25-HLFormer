@@ -12,7 +12,7 @@
   - [6. Contact](#6-contact)
 
 ## 1. Introduction
-This repository contains the **PyTorch** implementation of our work at **ICCV 2025**. Paper is coming soon:
+This repository contains the **PyTorch** implementation of our work at **ICCV 2025**. Paper is coming soon and you can access the issue to get our paper.:
 
 > [**Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning**]  Jun Li, Jinpeng Wang, Chaolei Tan, Niu Lian, Long Chen, Min Zhang, Yaowei Wang, Shu-Tao Xia, Bin Chen.
 
