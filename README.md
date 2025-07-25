@@ -1,5 +1,7 @@
-# HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning[![arXiv](https://img.shields.io/badge/arXiv-2507.17402-b31b1b.svg?style=flat)](https://arxiv.org/abs/2507.17402)  [![52CV](https://img.shields.io/badge/52CV-中文解读-b31b1b.svg?style=flat)](https://zhuanlan.zhihu.com/p/1931768417418994885)
-## Catalog
+# HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning
+
+[![arXiv](https://img.shields.io/badge/arXiv-2507.17402-b31b1b.svg?style=flat)](https://arxiv.org/abs/2507.17402) [![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange)](https://huggingface.co/papers/2507.17402) [![52CV](https://img.shields.io/badge/52CV-中文解读-pink.svg?style=flat)](https://zhuanlan.zhihu.com/p/1931768417418994885) 
+## TABLE OF CONTENTS
 - [HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning](#hlformer-enhancing-partially-relevant-video-retrieval-with-hyperbolic-learning)
   - [1. Introduction](#1-introduction)
   - [2. Preparation](#2-preparation)
