@@ -17,7 +17,7 @@
 ## 1. Introduction
 This repository contains the **PyTorch** implementation of our work at **ICCV 2025**.:
 
-> [**Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning**](http://arxiv.org/abs/2507.17402) [Jun Li](https://github.com/lijun2005/), [Jinpeng Wang](https://github.com/gimpong), Chaolei Tan, Niu Lian, Long Chen, Min Zhang, Yaowei Wang, Shu-Tao Xia, Bin Chen.
+> [**Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning**](http://arxiv.org/abs/2507.17402) [Jun Li](https://github.com/lijun2005/), [Jinpeng Wang](https://github.com/gimpong), Chaolei Tan, Niu Lian, Long Chen, Yaowei Wang,Min Zhang,  Shu-Tao Xia, Bin Chen.
 
 ![overview](figures/hlformer.png)
 
