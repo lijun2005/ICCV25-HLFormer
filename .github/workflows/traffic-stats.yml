@@ -26,7 +26,7 @@ jobs:
 
       - name: Update traffic and generate badges
 
-        uses: yi-Xu-0100/traffic-to-badge@v1.5.0
+        uses: yi-Xu-0100/traffic-to-badge@v1
         with:
           my_token: ${{ secrets.GITHUB_TOKEN }}
           
