@@ -1,0 +1,41 @@
+
+name: Update Traffic Stats
+
+
+on:
+
+  push:
+    branches:
+      - main  
+
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+
+jobs:
+  update-traffic:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      - name: Update traffic and generate badges
+
+        uses: yi-Xu-0100/traffic-to-badge@v1.5.0
+        with:
+          my_token: ${{ secrets.GITHUB_TOKEN }}
+          
+          traffic_branch: traffic
+          
+
+          views_label: 'Total Views'
+          clones_label: 'Total Clones'
+          
+
+          views_color: 'blue'
+          clones_color: 'brightgreen'
