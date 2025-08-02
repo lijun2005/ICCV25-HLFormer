@@ -115,7 +115,7 @@ If you find our code useful or use the toolkit in your work, please consider cit
 @inproceedings{Li25_HLFormer,
   author = {Li, Jun and  Wang, Jinpeng and Tan, Chaolei and Lian,Niu and Chen,Long and Wang, Yaowei and Zhang,Min and Xia, Shu-Tao and Chen, Bin},
   title={Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   year={2025}
 }
 ```
