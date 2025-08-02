@@ -46,8 +46,8 @@ cd ICCV25-HLFormer/
 - numpy==1.26.4
 - pytorch==2.0.1
 - torchvision==0.15.2
-- scipy==1.5.4
-- h5py==3.1.0
+- scipy==1.12.0
+- h5py==3.10.0
 - addict==2.4.0
 - `pip install -r requirements.txt`
 
