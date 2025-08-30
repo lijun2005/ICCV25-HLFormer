@@ -122,7 +122,7 @@ If you find our code useful or use the toolkit in your work, please consider cit
       url={https://arxiv.org/abs/2507.17402}, 
 }
 
-@inproceedings{Li25_HLFormer,
+@InProceedings{Li25_HLFormer,
   author = {Li, Jun and  Wang, Jinpeng and Tan, Chaolei and Lian,Niu and Chen,Long and Wang, Yaowei and Zhang,Min and Xia, Shu-Tao and Chen, Bin},
   title={Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
