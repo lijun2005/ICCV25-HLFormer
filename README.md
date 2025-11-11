@@ -112,17 +112,13 @@ For this repository, the expected performance is:
 ## 4. References
 If you find our code useful or use the toolkit in your work, please consider citing:
 ```
-@article{li2025hlformer,
-  title={HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning},
-  author={Li, Jun and Wang, Jinpeng and Tan, Chaolei and Lian, Niu and Chen, Long and Wang, Yaowei and Zhang, Min and Xia, Shu-Tao and Chen, Bin},
-  journal={arXiv preprint arXiv:2507.17402},
-  year={2025}
-}
-@InProceedings{Li25_HLFormer,
-  author = {Li, Jun and  Wang, Jinpeng and Tan, Chaolei and Lian,Niu and Chen,Long and Wang, Yaowei and Zhang,Min and Xia, Shu-Tao and Chen, Bin},
-  title={Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-  year={2025}
+@InProceedings{Li_2025_ICCV,
+    author    = {Li, Jun and Wang, Jinpeng and Tan, Chaolei and Lian, Niu and Chen, Long and Wang, Yaowei and Zhang, Min and Xia, Shu-Tao and Chen, Bin},
+    title     = {Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {23074-23084}
 }
 ```
 ## 5. Acknowledgements
