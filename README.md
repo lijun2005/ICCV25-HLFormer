@@ -1,21 +1,20 @@
-# HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning
+# Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning
 
+[![ICCV](https://img.shields.io/badge/ICCV-Paper-blue.svg?style=flat)](https://openaccess.thecvf.com/content/ICCV2025/html/Li_Enhancing_Partially_Relevant_Video_Retrieval_with_Hyperbolic_Learning_ICCV_2025_paper.html) 
 [![arXiv](https://img.shields.io/badge/arXiv-2507.17402-b31b1b.svg?style=flat)](https://arxiv.org/abs/2507.17402) [![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange)](https://huggingface.co/papers/2507.17402) [![52CV](https://img.shields.io/badge/52CV-中文解读-pink.svg?style=flat)](https://mp.weixin.qq.com/s/2hXBIRuNTpFKgJttNQqiKA) 
 
 :star: If HLFormer is helpful to your   projects, please help star this repo. Thanks! :hugs:
 ## TABLE OF CONTENTS
-- [HLFormer: Enhancing Partially Relevant Video Retrieval with Hyperbolic Learning](#hlformer-enhancing-partially-relevant-video-retrieval-with-hyperbolic-learning)
-  - [TABLE OF CONTENTS](#table-of-contents)
-  - [1. Introduction](#1-introduction)
-  - [2. Preparation](#2-preparation)
-    - [2.1 Requirements](#21-requirements)
-    - [2.2 Download the  feature datasets and organize them properly](#22-download-the--feature-datasets-and-organize-them-properly)
-  - [3. Run](#3-run)
-    - [3.1 Train](#31-train)
-    - [3.2 Retrieval Performance](#32-retrieval-performance)
-  - [4. References](#4-references)
-  - [5. Acknowledgements](#5-acknowledgements)
-  - [6. Contact](#6-contact)
+- [1. Introduction](#1-introduction)
+- [2. Preparation](#2-preparation)
+  - [2.1 Requirements](#21-requirements)
+  - [2.2 Download the  feature datasets and organize them properly](#22-download-the--feature-datasets-and-organize-them-properly)
+- [3. Run](#3-run)
+  - [3.1 Train](#31-train)
+  - [3.2 Retrieval Performance](#32-retrieval-performance)
+- [4. References](#4-references)
+- [5. Acknowledgements](#5-acknowledgements)
+- [6. Contact](#6-contact)
 
 ## 1. Introduction
 This repository contains the **PyTorch** implementation of our work at **ICCV 2025**.:
