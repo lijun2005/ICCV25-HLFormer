@@ -3,9 +3,9 @@
 [![ICCV](https://img.shields.io/badge/ICCV-Paper-blue.svg?style=flat)](https://openaccess.thecvf.com/content/ICCV2025/html/Li_Enhancing_Partially_Relevant_Video_Retrieval_with_Hyperbolic_Learning_ICCV_2025_paper.html) 
 [![arXiv](https://img.shields.io/badge/arXiv-2507.17402-b31b1b.svg?style=flat)](https://arxiv.org/abs/2507.17402) [![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange)](https://huggingface.co/papers/2507.17402) [![52CV](https://img.shields.io/badge/52CV-中文解读-pink.svg?style=flat)](https://mp.weixin.qq.com/s/2hXBIRuNTpFKgJttNQqiKA) 
 
-:star: If HLFormer is helpful to your   projects, please help star this repo. Thanks! :hugs:
+**:star: If HLFormer is helpful to your   projects, please help star this repo. Thanks! :hugs:**
 
-We invite readers to refer to our latest work [CVPR26-DreamPRVR](https://github.com/lijun2005/CVPR26-DreamPRVR/), as well as our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval) and previous work [GMMFormer](https://github.com/huangmozhi9527/GMMFormer).
+**We invite readers to refer to our latest work [CVPR26-DreamPRVR](https://github.com/lijun2005/CVPR26-DreamPRVR/) and our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval).**
 ## TABLE OF CONTENTS
 - [1. Introduction](#1-introduction)
 - [2. Preparation](#2-preparation)
