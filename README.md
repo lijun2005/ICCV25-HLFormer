@@ -4,6 +4,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2507.17402-b31b1b.svg?style=flat)](https://arxiv.org/abs/2507.17402) [![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange)](https://huggingface.co/papers/2507.17402) [![52CV](https://img.shields.io/badge/52CV-中文解读-pink.svg?style=flat)](https://mp.weixin.qq.com/s/2hXBIRuNTpFKgJttNQqiKA) 
 
 :star: If HLFormer is helpful to your   projects, please help star this repo. Thanks! :hugs:
+
+We invite readers to refer to our latest work [CVPR26-DreamPRVR](https://github.com/lijun2005/CVPR26-DreamPRVR/), as well as our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval) and previous work [GMMFormer](https://github.com/huangmozhi9527/GMMFormer).
 ## TABLE OF CONTENTS
 - [1. Introduction](#1-introduction)
 - [2. Preparation](#2-preparation)
@@ -27,8 +29,6 @@ We propose **HLFormer**, the *first* hyperbolic modeling framework for PRVR, whi
 For (i), we inject the **intra-video hierarchy prior** into the temporal modeling by introducing multi-scale Lorentz attention. 
 It collaborates with the Euclidean attention and enhances activation of discriminative moment features relevant to queries. 
 For (ii), we introduce $L_{pop}$ to impose a fine-grained 'text < video' semantic entailment constraint in hyperbolic space. This helps to model the **inter-video hierarchy prior** among videos and texts. 
-
-Besides, we invite readers to refer to our previous work [GMMFormer](https://github.com/huangmozhi9527/GMMFormer) and [GMMFormerV2](https://github.com/huangmozhi9527/GMMFormer_v2), as well as our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval) and the latest work [DreamPRVR](https://github.com/lijun2005/CVPR26-DreamPRVR/).
 
 In the following, we will guide you how to use this repository step by step. 🤗🐶
 
