@@ -5,7 +5,7 @@
 
 **:star: If HLFormer is helpful to your   projects, please help star this repo. Thanks! :hugs:**
 
-**We invite readers to refer to our latest work [CVPR26-DreamPRVR](https://github.com/lijun2005/CVPR26-DreamPRVR/) and our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval).**
+**We invite readers to refer to our latest work [CVPR26-DreamPRVR](https://github.com/lijun2005/CVPR26-DreamPRVR/) [ICML26-Holmes](https://github.com/lijun2005/ICML26-Holmes) and our curated [Awesome-PRVR](https://github.com/lijun2005/Awesome-Partially-Relevant-Video-Retrieval).**
 ## TABLE OF CONTENTS
 - [1. Introduction](#1-introduction)
 - [2. Preparation](#2-preparation)
